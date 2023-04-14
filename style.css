@@ -1,62 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
-body{
-    font-family: 'Outfit' , sans-serif;
-    font-size: 1.8rem;
-    background-color:#F2F2F2;
-    /* background-color: hsl(220, 15%, 55%); */
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.8rem;
+  background-color: hsl(212, 45%, 89%);
+  /* background-color: hsl(220, 15%, 55%); */
 }
 
-.container{
-    margin:20rem 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 4rem;
+.container {
+  margin: 20rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
 }
-.qr-component{
-    max-width: 32rem;
-    min-height: 49.2rem;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
-    background-color: #fff;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap:5px;
-    overflow: hidden;
+.qr-component {
+  max-width: 32rem;
+  min-height: 49.2rem;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  overflow: hidden;
 }
-.item{
-    width: 100%;
-    padding: 1rem 3rem;
+.item {
+  width: 100%;
+  padding: 1rem 3rem;
 }
-.item:not(:last-child){
-    padding-top:2rem;
+.item:not(:last-child) {
+  padding-top: 2rem;
 }
-.qrcode-img{
-    width: 100%;
-    border-radius: 1rem;
+.qrcode-img {
+  width: 100%;
+  border-radius: 1rem;
 }
-.container-description{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap:10px;
-    margin-bottom: 2rem;
+.container-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 2rem;
 }
-.heading-primary{
- color: hsl(218, 44%, 22%);
+.heading-primary {
+  color: hsl(218, 44%, 22%);
 }
-.description{
-    color: hsl(212, 45%, 89%);
+.description {
+  color: hsl(212, 45%, 89%);
 }
